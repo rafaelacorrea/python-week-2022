@@ -11,4 +11,3 @@ def test_add_beer():
     )
     assert result.exit_code == 0
     assert "beer added" in result.stdout
-

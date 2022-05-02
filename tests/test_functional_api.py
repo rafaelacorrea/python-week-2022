@@ -3,6 +3,7 @@ from beerlog.api import api
 
 client = TestClient(api)
 
+
 def test_create_beer_via_api():
     response = client.post(
         "/beers",
@@ -11,7 +12,7 @@ def test_create_beer_via_api():
             "style": "KornPA",
             "flavor": 1,
             "image": 1,
-            "cost": 2
+            "cost": 2,
         },
     )
 
