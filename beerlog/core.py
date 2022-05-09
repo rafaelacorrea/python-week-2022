@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+functions to consult beers from database and insert beer on the database
+"""
+
+
 from typing import Optional, List
 from sqlmodel import select
 from beerlog.database import get_session
